@@ -1,0 +1,8 @@
+ZairaOnJava8: 444c52c3a1c0b0404ce05cfd07f4b1a8c75c8000
+
+Token del primer proyecto: 68ed92f9dda891ec5caeaf8ff050ec3903db7b50
+
+mvn sonar:sonar \
+  -Dsonar.projectKey=PRIMER_PROYECTO \
+  -Dsonar.host.url=http://localhost:8081 \
+  -Dsonar.login=68ed92f9dda891ec5caeaf8ff050ec3903db7b50
